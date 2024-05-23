@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Playfair Display", "san-serif";
+}
+/* navbar starts */
+header{
+    padding: 50px 0;
+}
+
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    /* background: rgb(253, 170, 238); */
+}
+
+.logo{
+    float: left;
+    width: 12%;
+}
+
+.logo img{
+    width: 100%;
+    /* background: green; */
+}
+
+.menu{
+    margin: 5px 0;
+    width:75%;
+    float: right;
+    /* background: rgb(255, 248, 171); */
+}
+
+ul{
+    float: right;
+}
+
+ul li{
+    float: left;
+}
+
+ul li a{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 70px;
+    color: #626262;
+    text-transform: uppercase;
+}
+ul li a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+ul li:last-child a{
+    margin-right: 0;
+}
+
+/* navbar ends */
+
+
+/* banner starts */
+.b_image{
+    padding-bottom: 20px;
+}
+.b_image img{
+    width: 100%;
+    height: auto;
+}
+/* banner ends */
+
+/* getaway starts */
+.getaway{
+    padding:100px 0;
+}
+.g_content{
+    overflow: hidden;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    color: #626262;    
+    /* border: 1px solid tomato; */
+}
+.light{
+    font-family: "Ubuntu", "san-serif";
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.title{
+    font-size: 30px;
+    font-weight: 400; 
+    margin: 20px 0 30px 0;
+}
+
+.text{
+    margin: 0;
+    line-height: 24px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.g_link{
+    display: inline-block;
+    margin-top: 40px;
+    color: #626262;
+    /* border: 1px solid green; */
+}
+/* getaway ends */
+
+/* blog starts */
+.blog{
+    padding: 0 0 100px;
+}
+.b_content{
+    overflow: hidden;
+    justify-content: space-between;
+}
+.b_item{
+    width: 47%;
+    float: left;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+}
+.b_item:nth-child(even){
+    margin-left: 6%;
+}
+.b_img{
+    margin-bottom: 20px;
+}
+.b_img img{
+    width: 100%;
+}
+
+
+
+
+
+/* blog ends */
